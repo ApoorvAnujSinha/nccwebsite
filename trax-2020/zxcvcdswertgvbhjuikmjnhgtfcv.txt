@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg transparent-bg static-nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images\logo-transparent.png" alt="NCC NITK" class="logo-default">
+      <img src="images\logo.png" alt="NCC NITK" class="logo-scrolled">
+    </a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-toggle="dropdown" > About NCC </a>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-1 col-md-3 col-sm-12">
+                    <a class="dropdown-item active" href="index.html">History</a>
+                    <a class="dropdown-item" href="index-creative-agency.html">Aim</a>
+                    <a class="dropdown-item" href="index-light.html">Motto</a>
+                    <a class="dropdown-item" href="index-video.html">Song</a>
+                    <a class="dropdown-item" href="index-modern-agency.html">Flag</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Alumni </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Enrollment </a>
+        </li>
+
+        <li class="nav-item dropdown position-relative">
+          <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-toggle="dropdown" > Downloads </a>
+          <ul class="dropdown-menu ml-auto">
+            <li>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-1 col-md-3 col-sm-12">
+                    <a class="dropdown-item active" href="index.html">Cadet’s Handbook </a>
+                    <a class="dropdown-item" href="index-creative-agency.html">Special Subject </a>
+                    <a class="dropdown-item" href="index-light.html">Common Subject </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
