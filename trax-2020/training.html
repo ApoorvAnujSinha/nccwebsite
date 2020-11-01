@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
+    <style>
+        .slide-text {
+            color: rgb(0,0,0) !important;
+    
+        }
+    </style>      
 <!--PreLoader-->
 <div class="loader">
     <div class="loader-inner">
@@ -26,134 +32,175 @@
 </div>
 <!--PreLoader Ends-->
 <!-- header -->
-<header class="site-header">
-    <nav class="navbar navbar-expand-lg padding-nav static-nav">
+<header class="site-header" id="header">
+    <nav class="navbar navbar-expand-lg transparent-bg static-nav">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="images\ncclogo.png" alt="logo">
+                <img src="images\ncclogo.png" alt="logo" class="logo-default" style="width:70%">
+                <img src="images\ncclogo.png" alt="logo" class="logo-scrolled" style="width:50%">
             </a>
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown static">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home </a>
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                         <ul class="dropdown-menu megamenu">
                             <li>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <a class="dropdown-item" href="index.html">Standard Version</a>
-                                            <a class="dropdown-item" href="index-creative-agency.html">Creative Agency</a>
-                                            <a class="dropdown-item" href="index-light.html">Classic Light</a>
-                                            <a class="dropdown-item" href="index-video.html">Video Background</a>
+                                            <h5 class="dropdown-title bottom10"> NCC </h5>
+                                            <a class="dropdown-item" href="Aim.html">AIM</a>
+                                            <a class="dropdown-item" href="moto.html">MOTO</a>
+                                            <a class="dropdown-item" href="pledge.html">PLEDGE</a>
+                                            <a class="dropdown-item" href="flag.html">FLAG</a>
+                                            <a class="dropdown-item" href="history.html">HISTORY</a>
+                                            <div class="col-lg-3 col-md-6 col-sm-10">
+                                                <h5 class="dropdown-title bottom10">SONG</a>
+                                                    <a class="dropdown-item" href="song.html">SONG</a>
+                                                    <a class="dropdown-item" href="songhistory.html">HISTORY</a>
+                                                </div>   
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <a class="dropdown-item" href="index-modern-agency.html">Modern Agency</a>
-                                            <a class="dropdown-item" href="index-classic-startup.html">Classic Startup</a>
-                                            <a class="dropdown-item" href="index-flat.html">Flat Version</a>
-                                            <a class="dropdown-item" href="index-innovative.html">Innovative Layout</a>
+                                            <h5 class="dropdown-title opacity-10"> STRUCTURE & WORKING </h5>
+                                            <a class="dropdown-item" href="organisation.html">ORGANISATION</a>
+                                            <a class="dropdown-item" href="dgncc.html">DG NCC</a>
+                                            <a class="dropdown-item" href="rank.html">RANKS</a>
+                                            <a class="dropdown-item" href="camp.html">CENTRALLY ORGANIZED CAMPS</a>
+                                            <a class="dropdown-item" href="training.html">TRAINING</a>
+                                            <a class="dropdown-item" href="social.html">SOCIAL ACTIVITIES</a>
+                                            <a class="dropdown-item" href="certification.html">CERTIFICATION & EXAMINATION</a>
+                                            <a class="dropdown-item" href="coming-soon.html">DG & UNITS</a>
                                         </div>
                                         <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <a class="dropdown-item" href="index-one-page.html">One Page Layout</a>
-                                            <a class="dropdown-item" href="index-center-logo.html">Center Logo</a>
-                                            <a class="dropdown-item" href="index-bottom-nav.html">Bottom Nav</a>
-                                            <a class="dropdown-item" href="index-gray.html">Minimal Gray</a>
+                                            <h5 class="dropdown-title bottom10">NATIONAL SYMBOLS</h5>
+                                            <a class="dropdown-item" href="coming-soon.html">FLAG</a>
+                                            <a class="dropdown-item" href="coming-soon.html">ANTHEM</a>
+                                            <a class="dropdown-item" href="coming-soon.html">SONG</a>
+                                            <a class="dropdown-item" href="coming-soon.html">EMBLEM</a>
+                                            <a class="dropdown-item" href="coming-soon.html">GAME</a>
+                                            <a class="dropdown-item" href="coming-soon.html">CALENDER</a>
+                                            <a class="dropdown-item" href="coming-soon.html">ANIMAL</a>
+                                            <a class="dropdown-item" href="coming-soon.html">BIRD</a>
+                                            <a class="dropdown-item" href="coming-soon.html">TREE</a>
+                                            <a class="dropdown-item" href="coming-soon.html">FRUIT</a>
+                                            <a class="dropdown-item" href="coming-soon.html">FLOWER</a>
+                                            <a class="dropdown-item" href="coming-soon.html">RIVER</a>
+                                            <a class="dropdown-item" href="coming-soon.html">SYMBOL</a>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <a class="dropdown-item" href="index-parallax.html">Parallax Version</a>
-                                            <a class="dropdown-item" href="index-interactive-classic.html">Interactive Classic</a>
-                                            <a class="dropdown-item" href="index-design-studio.html">Design Studio</a>
-                                            <a class="dropdown-item" href="index-particles.html">Interactive Particles</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown static">
-                        <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages </a>
-                        <ul class="dropdown-menu megamenu">
-                            <li>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <h5 class="dropdown-title bottom10"> General </h5>
-                                            <a class="dropdown-item" href="about.html">About Us</a>
-                                            <a class="dropdown-item" href="services.html">Services</a>
-                                            <a class="dropdown-item active" href="services-detail.html">Service Detail</a>
-                                            <a class="dropdown-item" href="testimonial.html">Testimonials</a>
-                                            <a class="dropdown-item" href="contact.html">Contact Us</a>
-                                            <a class="dropdown-item" href="team.html">Our Team</a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <h5 class="dropdown-title opacity-10"> Others </h5>
-                                            <a class="dropdown-item" href="gallery.html">Gallery</a>
-                                            <a class="dropdown-item" href="gallery-detail.html">Gallery Detail</a>
-                                            <a class="dropdown-item" href="pricing.html">Pricing</a>
-                                            <a class="dropdown-item" href="404.html">404 Error</a>
-                                            <a class="dropdown-item" href="faq.html">FAQ's</a>
-                                            <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <h5 class="dropdown-title bottom10"> Account </h5>
-                                            <a class="dropdown-item" href="login.html">Login</a>
-                                            <a class="dropdown-item" href="register.html">Register</a>
-                                            <a class="dropdown-item" href="forget-password.html">Reset Password</a>
-                                            <a class="dropdown-item" href="support.html">Support</a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-12">
-                                            <h5 class="dropdown-title bottom10"> Shop Pages </h5>
-                                            <a class="dropdown-item" href="shop.html">Shop</a>
-                                            <a class="dropdown-item" href="shop-detail.html">Shop Detail</a>
-                                            <a class="dropdown-item" href="shop-cart.html">Shopping Cart</a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown position-relative">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Blog </a>
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NCC NITK</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="blog-1.html">Blog Layout 1</a>
-                            <a class="dropdown-item" href="blog-2.html">Blog Layout 2</a>
-                            <a class="dropdown-item" href="blog-detail.html">Blog Layout 3</a>
+                            <a class="dropdown-item" href="coming-soon.html">HISTORY</a>
+                            <a class="dropdown-item" href="coming-soon.html">ACTIVITIES</a>
+                            <a class="dropdown-item" href="coming-soon.html">people's message</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown position-relative">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> STUDY MATERIAL </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="coming-soon.html">ONE-1</a>
+                            <a class="dropdown-item" href="coming-soon.html">TWO-2</a>
+                            <a class="dropdown-item" href="coming-soon.html">THREE-3</a>
+                            <a class="dropdown-item" href="coming-soon.html">FOUR-4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown position-relative">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> ALUMNI </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="coming-soon.html">OFFICER COMMANDING</a>
+                            <a class="dropdown-item" href="coming-soon.html">JUNIOR COMMISSIONED OFFICER</a>
+                            <a class="dropdown-item" href="coming-soon.html">NON COMMISSIONED OFFICER</a>
+                            <a class="dropdown-item" href="coming-soon.html">CADETS</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="coming-soon.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="coming-soon.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coming-soon.html">LOGIN</a>
                     </li>
                 </ul>
             </div>
-            <ul class="social-icons social-icons-simple d-lg-inline-block d-none animated fadeInUp" data-wow-delay="300ms">
-                <li><a href="#."><i class="fab fa-facebook-f"></i> </a> </li>
-                <li><a href="#."><i class="fab fa-twitter"></i> </a> </li>
-                <li><a href="#."><i class="fab fa-linkedin-in"></i> </a> </li>
-            </ul>
         </div>
         <!--side menu open button-->
         <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
-            <span class="gradient-bg"></span> <span class="gradient-bg"></span> <span class="gradient-bg"></span>
+            <span></span> <span></span> <span></span>
         </a>
     </nav>
     <!-- side menu -->
     <div class="side-menu opacity-0 gradient-bg">
         <div class="overlay"></div>
         <div class="inner-wrapper">
-            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages1">
                             Home <i class="fas fa-chevron-down"></i>
                         </a>
-                        <div id="sideNavPages1" class="collapse sideNavPages">
+                        <!--<div id="sideNavPages1" class="collapse sideNavPages">
                             <ul class="navbar-nav mt-2">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Standard Version</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-creative-agency.html">Creative Agency</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-light.html">Classic Light</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-video.html">Video Background</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-modern-agency.html">Modern Agency</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-classic-startup.html">Classic Startup</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-flat.html">Flat Version</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-innovative.html">Innovative Layout</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-one-page.html">One Page Layout</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-center-logo.html">Center Logo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-bottom-nav.html">Bottom Nav</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-gray.html">Minimal Gray</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-parallax.html">Parallax Version</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-interactive-classic.html">Interactive Classic</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-design-studio.html">Design Studio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index-particles.html">Interactive Particles</a>
+                                    <ul class="navbar-nav mt-2">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Standard Version</a>
                                 </li>
@@ -203,6 +250,8 @@
                                     <a class="nav-link" href="index-particles.html">Interactive Particles</a>
                                 </li>
                             </ul>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -224,7 +273,7 @@
                                     <a class="nav-link" href="services.html">Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="services-detail.html">Service Detail</a>
+                                    <a class="nav-link" href="services-detail.html">Service Detail</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="testimonial.html">Testimonials</a>
@@ -310,15 +359,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
+                </ul>-->
             </nav>
             <div class="side-footer w-100">
                 <ul class="social-icons-simple white top40">
-                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                    <li><a href="https://www.facebook.com/2-Kar-Engr-Coy-NCC-102433731543988/"><i class="fab fa-facebook-f"></i> </a> </li>
+                    <!--<li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>-->
+                    <li><a href="https://www.instagram.com/2_kar_engr_coy_nitk/?igshid=1d0ggpw5dnusc"><i class="fab fa-instagram"></i> </a> </li>
                 </ul>
-                <p class="whitecolor">&copy; <span id="year"></span> Trax. Made With Love by ThemesIndustry</p>
+                <p class="whitecolor">&copy; <span id="year"></span> 2 KAR ENGR COY NCC. Made With Love by FLYING AND ROBOTICS CLUBS NITK-FARC</p>
             </div>
         </div>
     </div>
@@ -360,17 +409,17 @@
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="text-sm-left text-left wow fadeInLeft" data-wow-delay="300ms">
-                <h3>Drill, shooting, Physical fitness, map reading, First aid, Gliding/Flying, boat pulling, sailing and camp training covering basic of military training in Army, Navy and Air Force.  
-                      </h3><br>
-                <h3>This training is mostly carried out in schools and colleges by the cadets. In addition, depending upon the type of service, basic knowledge of that service is imparted to the cadets e.g gliding , powered flying for Air Wing cadets and boat pulling, sailing for Naval Wing cadets form part of institutional training. These activities comprise approximately 50% of the entire syllabus.
-                </h3><br>
-                <h3>This is the most imp aspect of NCC Trg and hence great emphasis on institutional trg to be given. State DDG's to issue comprehensive instrs on organising the Institutional Trg at Gp / Unit level.
-                </h3><br>
-                <h3>Following actions will be taken to improve the standard of trg.
-                </h3><br>
-                <h3>1.Optimum utilization of PI Staff for Trg.</h3><br>
-                <h3>2.Greater involvement of Offrs, WTLO's and ANO's.</h3><br>
-                <h3>3.Deficiencies in trg aids will be made up expeditiously.</h3><br>
+                <h4>Drill, shooting, Physical fitness, map reading, First aid, Gliding/Flying, boat pulling, sailing and camp training covering basic of military training in Army, Navy and Air Force.  
+                      </h4><br>
+                <h4>This training is mostly carried out in schools and colleges by the cadets. In addition, depending upon the type of service, basic knowledge of that service is imparted to the cadets e.g gliding , powered flying for Air Wing cadets and boat pulling, sailing for Naval Wing cadets form part of institutional training. These activities comprise approximately 50% of the entire syllabus.
+                </h4><br>
+                <h4>This is the most imp aspect of NCC Trg and hence great emphasis on institutional trg to be given. State DDG's to issue comprehensive instrs on organising the Institutional Trg at Gp / Unit level.
+                </h4><br>
+                <h4>Following actions will be taken to improve the standard of trg.
+                </h4><br>
+                <h4>1.Optimum utilization of PI Staff for Trg.</h4><br>
+                <h4>2.Greater involvement of Offrs, WTLO's and ANO's.</h4><br>
+                <h4>3.Deficiencies in trg aids will be made up expeditiously.</h4><br>
                 
             </div>
         </div>
@@ -383,10 +432,26 @@
         <div class=" align-items-center">
             <div class=" text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
                 <div class="heading-title mb-4">
-                    <h2 class="darkcolor font-normal ">ABOUT<span class="defaultcolor">NCC</span> </h2>
+                    <h2 class="darkcolor font-normal "><span class="defaultcolor">Basic Training</span> </h2>
                 </div>
-                <p class="">The ‘Aims’ of the NCC laid out in 1988 have stood the test of time and continue to meet the requirements expected of it in the current socio–economic scenario of the country. The NCC aims at developing character, comradeship, discipline, a secular outlook, the spirit of adventure and ideals of selfless service amongst young citizens. Further, it aims at creating a pool of organized, trained and motivated youth with leadership qualities in all walks of life, who will serve the Nation regardless of which career they choose. Needless to say, the NCC also provides an environment conducive to motivating young Indians to join the armed forces.</p>
-                
+                <div class="heading-title mb-4">
+                    <h4 class="darkcolor font-normal "> Drill<span class="defaultcolor"></span> </h4>
+                </div>
+                <p class="">Cadets must be made to understand the aim and purpose of teaching drill, so that they are suitably motivated and do not take it as "fatigue". Emphasis will be laid on correct bearing, marching, saluting and arms drill. Inter-squad competitions may be organized to create interest.</p>
+                <div class="heading-title mb-4">
+                    <h4 class="darkcolor font-normal "> Weapon Training<span class="defaultcolor"></span> </h4>
+                </div>
+                <p class=""> Cadets generally take keen interest in wpn trg and firing. Units must liaise with nearby Service and Para-Military Units to ensure that all cdts get an opportunity to fire their authorized amn. Use of firing simulators may be made to optimize trg efforts where possible.</p>
+                <div class="heading-title mb-4">
+                    <h4 class="darkcolor font-normal ">Adventure Training<span class="defaultcolor"></span> </h4>
+                </div>
+                <p class="">  Adventure activities have been incorporated in NCC training with the aim of inculcating and strengthening leadership traits amongst the cadets. 
+                    These activities in NCC can be broadly divided into the following.<br><br>
+
+                    1.Land based   - Mountaineering,Rock Climbing,Trekking.<br>
+                    2.Water based - Sailing Expedition,White Water Rafting,Scuba Diving,River Crossing.<br>
+                    3.Air based     - Parasailing.</p>
+            
             </div>
             
         </div>
