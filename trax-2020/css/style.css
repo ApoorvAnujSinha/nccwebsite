@@ -3055,6 +3055,10 @@ a.dropdown-toggle::after {
     background: url(../images/bg-service-detail-header.jpg) no-repeat;
 }
 
+.national-anthem-header {
+    background: url(../images/inr-banner-independence-day-celebration.jpg) no-repeat;
+}
+
 .contact-header {
     background: url(../images/bg-contact-header.jpg) no-repeat;
 }
