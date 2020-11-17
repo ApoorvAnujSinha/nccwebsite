@@ -3059,6 +3059,10 @@ a.dropdown-toggle::after {
     background: url(../images/inr-banner-independence-day-celebration.jpg) no-repeat;
 }
 
+.national-flag-header {
+    background: url(../images/ind-banner-national-flag-banner.jpg) no-repeat;
+}
+
 .contact-header {
     background: url(../images/bg-contact-header.jpg) no-repeat;
 }
