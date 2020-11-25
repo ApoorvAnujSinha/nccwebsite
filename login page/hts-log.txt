@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 10 Nov 2020 12:45:44 at https://themesdesign.in/appzia/index.html +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -WC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://themesdesign.in/appzia/index.html -O1 "C:\Users\apoor\OneDrive\Documents\GitHub\login page" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:49:37	Warning: 	File not parsed, looks like binary: https://themesdesign.in/appzia/assets/fonts/fa-solid-900.woff2
+12:50:01	Warning: 	File not parsed, looks like binary: https://themesdesign.in/appzia/assets/fonts/fa-regular-400.woff2
+12:50:01	Warning: 	File not parsed, looks like binary: https://themesdesign.in/appzia/assets/fonts/fa-brands-400.woff2
+12:50:02	Warning: 	File not parsed, looks like binary: https://themesdesign.in/appzia/assets/fonts/materialdesignicons-webfont.woff2?v=2.3.54
+12:50:06	Warning: 	File not parsed, looks like binary: https://themesdesign.in/appzia/assets/fonts/ionicons.woff2?v=4.1.1
+12:50:10	Error: 	"No data (connection closed)" (-4) after 2 retries at link maps.google.com/robots.txt (from https://themesdesign.in/appzia/maps-google.html)
+12:50:10	Warning: 	Retry after error -4 (No data (connection closed)) at link maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI (from https://themesdesign.in/appzia/maps-google.html)
+12:50:10	Warning: 	Retry after error -4 (No data (connection closed)) at link maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI (from https://themesdesign.in/appzia/maps-google.html)
+12:50:10	Error: 	"No data (connection closed)" (-4) after 2 retries at link maps.google.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI (from https://themesdesign.in/appzia/maps-google.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 26 seconds : 200 links scanned, 195 files written (14536311 bytes overall) [9311447 bytes received at 35005 bytes/sec], 6815152 bytes transferred using HTTP compression in 140 files, ratio 22%, 14.2 requests per connection
+(2 errors, 7 warnings, 0 messages)
